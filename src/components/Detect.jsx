@@ -16,7 +16,7 @@ function Detect() {
             detect(net);
         }, 10)
 
-        const detect = async (net:any) => {
+        const detect = async (net) => {
             if (
                 typeof webcamRef.current !== "undefined" &&
                 webcamRef.current !== null &&
